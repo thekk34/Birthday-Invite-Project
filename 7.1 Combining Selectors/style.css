@@ -1,0 +1,21 @@
+/* Write your code here: */
+/* group selector */
+h1,h2{
+     color:violet;
+}
+/* parent and its next child */
+.box>p{
+     color:firebrick;
+}
+/* descendent :space b/w two slector */
+.box li{
+     color: blue;
+}
+/* chaining selector :no space b/w selector,first is element */
+li.done{
+     color:seagreen;
+}
+/* combining Combiners */
+ul p.done{
+     font-size: 0.5rem;
+}

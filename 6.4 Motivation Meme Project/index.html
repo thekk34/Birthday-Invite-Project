@@ -1,0 +1,87 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 3 Indians Celebrity</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    body{
+      background-color: rgb(16, 16, 15);  
+    }
+    div{
+      
+      width: 50%;
+      margin-left: 25%;
+      color:white;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+
+
+    }
+    img{
+      
+      width: 100%;
+      border:5px solid white;
+    }
+    #main{
+      text-align: center;
+      color:white;
+    }
+    h1{
+      font-family:Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;;
+      text-align: center;
+      color:white
+    }
+    p{
+      margin:0;
+
+    }
+    
+  </style>
+</head>
+<body>
+  <h1 id="main">Top 3 Celebrity</h1>
+  <div>
+    <img src="./assets/images/images.jpg" alt="modi">
+    <h1>Shri Narendra Modi Ji</h1>
+    <p>Narendra Damodardas Modi born on 17 September 1950 is an Indian politician who
+       has served as the 14th prime minister of India since May 2014. Modi was the chief minister of Gujarat from 2001 to 2014 and is the Member
+        of Parliament (MP) for Varanasi. He is a member of the Bharatiya Janata Party (BJP) and of the Rashtriya Swayamsevak Sangh (RSS), a right
+         wing Hindu nationalist paramilitary volunteer organisation. He is the longest-serving prime minister from outside the Indian National Congress.</p>
+
+  </div>
+  <div>
+    <img src="./assets/images/vk1.jpg" alt="virat Kohli">
+    <h1>Virat Kohli</h1>
+    <p>Virat Kohli is an Indian international cricketer and the former captain of the Indian national cricket team. He currently represents Royal Challengers Bangalore
+       in the IPL and Delhi in domestic cricket. Kohli is widely regarded as one of the greatest batsmen in the history of cricket, and the best of this era.[3] He is the
+        highest run scorer in T20I and IPL. In 2020, the International Cricket Council named him the male cricketer of the decade</p>
+  </div>
+  <div>
+    <img src="./assets/images/srk.jpg" alt="srk">
+    <h1>ShahRukh Khan</h1>
+    <p>Shah Rukh Khan also known by the initialism SRK, is an Indian actor and film producer who works in Hindi films</p>
+  </div>
+
+  
+</body>
+</html>
